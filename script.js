@@ -42,10 +42,10 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, heading', { origin: 'left' });
-ScrollReveal().reveal(' .skill-box, .contact form', { origin: 'left' });
+ScrollReveal().reveal('  .contact form', { origin: 'top' });
 ScrollReveal().reveal('.home-contact h1', { origin: 'left' });
-ScrollReveal().reveal('.home-img,.home-contact p,.portfolio-box, .about-content', { origin: 'right' });
-
+ScrollReveal().reveal('.home-img,.home-contact p,.portfolio-box, .about-content', { origin: 'left' });
+ScrollReveal().reveal('.skill-box,.home-img', { origin: 'top' });
 
 const typed = new Typed('.multiple-text',{
      strings: ['Full Stack Developer','Frontend Developer','Backend Developer'],
